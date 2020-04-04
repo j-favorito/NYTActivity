@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY Times Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+    <header><h1><center>NY TIMES SEARCH</center></h1></header>
+    </div>
+    <div class="col-sm-1"></div>
+    </div>
+    <form>
+        <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Search Term</label>
+          <input class="form-control" id="searchBox">
+        </div>
+        <div class="form-group">
+          <label for="numberOfArticles">Number of Articles</label>
+          <input class="form-control" id="numberOfArticles">
+        </div>
+        <div class="form-group">
+            <label for="startYear">Start Year</label>
+            <input class="form-control" id="startYear">
+          </div>
+          <div class="form-group">
+            <label for="endYear">Number of Articles</label>
+            <input class="form-control" id="endYear">
+          </div>
+        <button class="btn btn-primary" id="searchBtn">Search</button>
+        <button class="btn btn-primary" id="clearBtn">Clear</button>
+        </div>  
+        <div class="col-sm-1"></div>
+    </form>
+    <div class="card">
+        <div class="card-header">Top Articles</div>
+        <div class="card-body"></div>
+      </div>
+
+
+</body>
+</html>
